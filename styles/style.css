@@ -651,6 +651,10 @@ ul {
   pointer-events: none;
 }
 
+.backdrop.active{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 .modal {
   width: 100%;
   max-width: 724px;
@@ -662,6 +666,8 @@ ul {
   padding: 42px 144px;
   /* overflow-y: auto; */
 }
+
+
 
 .modal-btn-close {
   position: absolute;
